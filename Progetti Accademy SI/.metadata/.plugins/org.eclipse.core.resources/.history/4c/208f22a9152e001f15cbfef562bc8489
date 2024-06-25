@@ -1,0 +1,5 @@
+package com.sistemi.informativi;
+
+public class Operazione {
+	public int somma(int x, int y)
+}

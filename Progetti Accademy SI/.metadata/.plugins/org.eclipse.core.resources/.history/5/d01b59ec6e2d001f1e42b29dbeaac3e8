@@ -1,0 +1,16 @@
+package com.sistemi.informativi;
+
+public class Azienda {
+	public void produce() 
+	{
+		System.out.println("produce");
+	}
+	public void assume() 
+	{
+		System.out.println("assume");
+	}
+	public void fattura() 
+	{
+		System.out.println("fat");
+	}
+}

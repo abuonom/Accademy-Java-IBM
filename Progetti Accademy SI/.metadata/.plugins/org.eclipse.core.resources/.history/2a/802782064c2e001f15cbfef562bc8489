@@ -1,0 +1,8 @@
+package com.sistemi.informativi.bean;
+
+public class Company {
+	private String code;
+	private String title;
+	private String location;
+
+	

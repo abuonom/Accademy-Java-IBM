@@ -1,0 +1,26 @@
+package com.sistemi.informativi;
+
+public class Operazione {
+	
+	/*
+	 *  In Java l'Overloading  significa dichiarare all'interno della
+	 *  stessa classe più di un metodo con stesso nome, ma firme che differiscono
+	 *  nel tipo, o nel numero dei parametri in input, oppure nel tipo di ritorno
+	 * 
+	 */
+	public int somma(int x, int y) 
+	{
+		return (x + y);
+	}
+	
+	public int somma(int x, int y, int z) 
+	{
+		return (x + y + z);
+	}
+	
+	
+	public float somma(int x, int y) 
+	{
+		return (x + y);
+	}
+}

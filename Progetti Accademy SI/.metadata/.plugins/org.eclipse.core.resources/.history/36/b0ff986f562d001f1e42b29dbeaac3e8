@@ -1,0 +1,13 @@
+package com.sistemi.informativi;
+
+public class Persona {
+	public void mangia() {
+		System.out.println("mangia");
+	}
+	public void dorme() {
+		System.out.println("dorme");
+	}
+	public void () {
+		System.out.println("mangia");
+	}
+}

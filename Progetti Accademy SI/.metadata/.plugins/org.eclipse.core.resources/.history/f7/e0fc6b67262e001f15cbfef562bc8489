@@ -1,0 +1,6 @@
+package com.sistemi.informativi.bean;
+
+public class Persona {
+	private String nome;
+	p
+}

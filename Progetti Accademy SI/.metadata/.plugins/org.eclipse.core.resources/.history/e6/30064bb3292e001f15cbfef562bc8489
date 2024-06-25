@@ -1,0 +1,11 @@
+package com.sistemi.informativi.main;
+
+import com.sistemi.informativi.bean.Persona;
+
+public class main {
+
+	public static void main(String[] args) {
+		Persona persona = new Persona("Alessio", "Buonomo", 25, new Indi))
+	}
+
+}

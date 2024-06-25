@@ -1,0 +1,9 @@
+package com.sistemi.informativi.main;
+
+public class main {
+
+	public static void main(String[] args) {
+		Persona persona = new Persona();
+	}
+
+}

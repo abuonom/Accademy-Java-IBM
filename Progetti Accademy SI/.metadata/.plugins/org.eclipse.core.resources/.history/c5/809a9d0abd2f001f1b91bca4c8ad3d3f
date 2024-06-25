@@ -1,0 +1,12 @@
+package com.sistemi.informativi.exception;
+
+public class EccezioneCustom extends Exception{
+
+	private static final long serialVersionUID = 1L;
+
+	public EccezioneCustom(String message) {
+		
+	}
+	
+	
+}

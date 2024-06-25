@@ -1,0 +1,5 @@
+package com.sistemi.informativi.enumeration;
+
+public enum Settimana {
+	
+}

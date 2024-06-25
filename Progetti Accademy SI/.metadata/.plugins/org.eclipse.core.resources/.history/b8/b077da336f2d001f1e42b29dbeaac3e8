@@ -1,0 +1,6 @@
+package com.sistemi.informativi;
+
+public class AziendaMeccanica extends Azienda{
+	@Override
+	public void produce()
+}

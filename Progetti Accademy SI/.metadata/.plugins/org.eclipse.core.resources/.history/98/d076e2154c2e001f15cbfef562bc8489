@@ -1,0 +1,6 @@
+package com.sistemi.informativi.bean;
+
+public class Company {
+	private String businessName;
+	private String vatNumber;
+}

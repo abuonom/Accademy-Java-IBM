@@ -1,0 +1,5 @@
+package com.sistemi.informativi.exception;
+
+public class EccezioneCustom {
+	
+}

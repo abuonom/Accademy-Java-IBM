@@ -1,0 +1,11 @@
+package com.sistemi.informativi;
+
+public class StudenteScolastico extends Studente{
+	/*
+	 * OVERRIDING significa 
+	 */
+	public void studia() 
+	{
+		System.out.println("Studia da maggio a settembre");
+	}
+}

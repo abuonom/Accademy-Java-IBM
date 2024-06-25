@@ -1,0 +1,9 @@
+package com.sistemi.informativi.Main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Operazione operazione = new Operazione();
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.sistemi.informativi;
+
+public class Operazione {
+	
+	/*
+	 * 
+	 * 
+	 */
+	public int somma(int x, int y) 
+	{
+		return (x + y);
+	}
+	
+	public int somma(int x, int y, int z) 
+	{
+		return (x + y + z);
+	}
+	
+	
+	public float somma(float x, float y) 
+	{
+		return (x + y);
+	}
+}

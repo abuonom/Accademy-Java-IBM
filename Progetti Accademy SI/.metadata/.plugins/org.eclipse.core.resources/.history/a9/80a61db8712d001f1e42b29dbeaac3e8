@@ -1,0 +1,16 @@
+package com.sistemi.informativi;
+
+public class Azienda {
+	public abstract void produce() 
+	{
+		System.out.println("produce");
+	}
+	public abstract void assume() 
+	{
+		System.out.println("assume");
+	}
+	public void fattura() 
+	{
+		System.out.println("fatturo al 22%");
+	}
+}

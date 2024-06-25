@@ -1,0 +1,22 @@
+package com.sistemi.informativi.main;
+
+import com.sistemi.informativi.DocenteJava;
+import com.sistemi.informativi.DocenteMicrosoft;
+
+public class Main {
+
+	public static void main(String[] args) {
+		DocenteJava docenteJava = new DocenteJava();
+		docenteJava.spiegaLinguaggio();
+		docenteJava.spiegaArchitettura();
+		docenteJava.spiegaFramework();
+		
+		DocenteMicrosoft docenteMicrosoft = new DocenteMicrosoft();
+		docenteMicrosoft.spiegaLinguaggio();
+		docenteMicrosoft.spiegaArchitettura();
+		docenteMicrosoft.spiegaFramework();
+		
+		Docente docenteJava
+	}
+
+}

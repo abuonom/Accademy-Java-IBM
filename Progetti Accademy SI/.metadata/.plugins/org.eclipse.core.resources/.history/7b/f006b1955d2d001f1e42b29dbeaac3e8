@@ -1,0 +1,24 @@
+package com.sistemi.informativi.main;
+
+import com.sistemi.informativi.Persona;
+import com.sistemi.informativi.Studente;
+
+public class main {
+
+	public static void main(String[] args) {
+		Persona persona = new Persona();
+		
+		persona.cammina();
+		persona.dorme();
+		persona.mangia();
+		
+		Studente studente = new Studente();
+		studente.cammina();
+		studente.dorme();
+		studente.mangia();
+		studente.studia();
+		
+		StudenteScolastico studentescolastic
+	}
+
+}

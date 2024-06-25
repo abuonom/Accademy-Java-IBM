@@ -1,0 +1,9 @@
+package com.sistemi.informativi.bean;
+
+public class Indirizzo {
+	private String via;
+	private String nCivico;
+	private String cap;
+	private String città;
+	
+}

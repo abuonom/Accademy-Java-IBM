@@ -1,0 +1,12 @@
+package com.sistemi.informativi.enumeration;
+
+public enum Pasto {
+	Colazione(8,"Sala A"),
+	Pranzo(13,"Sala B"),
+	Merenda(17,"Sala C"),
+	Cena(21,"Sala B");
+	
+	private int ora;
+	private String sala;
+	
+}

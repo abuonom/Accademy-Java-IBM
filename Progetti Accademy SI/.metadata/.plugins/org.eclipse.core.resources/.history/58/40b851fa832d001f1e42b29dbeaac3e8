@@ -1,0 +1,9 @@
+package com.sistemi.informativi;
+
+
+/*
+ * Si chiama anche P
+ */
+public interface Docente {
+	
+}

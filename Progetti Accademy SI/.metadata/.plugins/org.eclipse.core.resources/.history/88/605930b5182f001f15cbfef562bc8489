@@ -1,0 +1,10 @@
+package com.sistemi.informativi.business;
+
+public class Contatore {
+	//variabile di classe
+	private static int k;
+	
+	public void conta() {
+		
+	}
+}

@@ -1,0 +1,6 @@
+package com.sistemi.informativi.bean;
+
+public class Indirizzo {
+	private String via;
+	private 
+}
