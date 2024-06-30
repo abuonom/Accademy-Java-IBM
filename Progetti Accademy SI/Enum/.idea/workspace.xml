@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f481bc3-ffc0-48d3-98d1-8d4d7a5aa8f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JDBC_CRUD/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JDBC_CRUD/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JDBC_CRUD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JDBC_CRUD/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JDBC_CRUD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JDBC_CRUD/src/main/java/com/sistemi/informativi/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Progetti Accademy SI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/Factory_Pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/bean/BackEndCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/bean/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/bean/FrontEndCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/business/Choice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/business/ChoiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/dao/MockBackEndCourseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/dao/MockBackEndCourseDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/dao/MockFrontEndCourseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/dao/MockFrontEndCourseDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/enumeration/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/facede/FacedeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/facede/FacedeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factory_Pattern/src/com/sistemi/informativi/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Singleton7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Singleton7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Singleton7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Singleton7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Singleton7/Singleton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Singleton7/src/com/sistemi/informativi/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Singleton7/src/com/sistemi/informativi/singleton/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Strategy_Pattern/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Strategy_Pattern/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Strategy_Pattern/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Strategy_Pattern/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Strategy_Pattern/Strategy_Pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Strategy_Pattern/src/com/sistemi/informativi/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Strategy_Pattern/src/com/sistemi/informativi/strategy/CinemaProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Strategy_Pattern/src/com/sistemi/informativi/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Strategy_Pattern/src/com/sistemi/informativi/strategy/MuseumProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Strategy_Pattern/src/com/sistemi/informativi/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/Builder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/src/com/sistemi/informativi/builder/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/src/com/sistemi/informativi/dao/MockDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/src/com/sistemi/informativi/dao/MockDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/src/com/sistemi/informativi/main/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2iVrEHKLpuZofHY6PAsJhwFHZjF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alessio/Desktop/Accademy-Java-IBM/Strategy_Pattern",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f481bc3-ffc0-48d3-98d1-8d4d7a5aa8f8" name="Changes" comment="" />
+      <created>1719586472189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719586472189</updated>
+      <workItem from="1719586473234" duration="10000" />
+      <workItem from="1719586496132" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
