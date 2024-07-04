@@ -1,9 +1,0 @@
-package com.sistemi.informativi.handler;
-
-public class GestioneEccezioneCustom {
-	
-	public void riceviEta(int eta) {
-		if(eta<18)
-			
-	}
-}

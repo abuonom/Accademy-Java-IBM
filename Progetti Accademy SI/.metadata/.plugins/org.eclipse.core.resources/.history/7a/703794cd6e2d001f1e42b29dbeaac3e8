@@ -1,8 +1,0 @@
-package com.sistemi.informativi;
-
-public class Azienda {
-	public void produce() 
-	{
-		System.out.println();
-	}
-}

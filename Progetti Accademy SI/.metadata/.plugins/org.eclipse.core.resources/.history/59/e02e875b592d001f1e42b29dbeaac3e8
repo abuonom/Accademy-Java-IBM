@@ -1,8 +1,0 @@
-package com.sistemi.informativi;
-
-public class StudenteScolastico {
-	private void syso() {
-		// TODO Auto-generated method stub
-
-	}
-}

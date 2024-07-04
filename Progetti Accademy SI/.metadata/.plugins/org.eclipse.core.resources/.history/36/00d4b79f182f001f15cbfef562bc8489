@@ -1,6 +1,0 @@
-package com.sistemi.informativi.business;
-
-public class Contatore {
-	private static int k;
-	
-}

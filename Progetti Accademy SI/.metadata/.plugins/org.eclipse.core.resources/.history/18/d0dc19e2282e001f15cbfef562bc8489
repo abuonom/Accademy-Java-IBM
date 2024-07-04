@@ -1,8 +1,0 @@
-package com.sistemi.informativi.bean;
-
-public class Persona {
-	private String nome;
-	private String cognome;
-	private int età;
-	private Indirizzo indirizzo; //relazione HAS-A
-}

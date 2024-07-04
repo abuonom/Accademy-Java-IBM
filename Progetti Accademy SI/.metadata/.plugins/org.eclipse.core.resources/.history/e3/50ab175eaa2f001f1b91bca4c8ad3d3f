@@ -1,6 +1,0 @@
-package com.sistemi.informativi.enumeration;
-
-public enum Pasto {
-	Colazione(8,"Sala A"),
-	
-}

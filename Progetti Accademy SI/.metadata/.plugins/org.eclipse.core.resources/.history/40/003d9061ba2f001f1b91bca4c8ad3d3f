@@ -1,7 +1,0 @@
-package com.sistemi.informativi.business;
-
-public class Operazione {
-	public main divisione(int a, int b) {
-		return a/b;
-	}
-}

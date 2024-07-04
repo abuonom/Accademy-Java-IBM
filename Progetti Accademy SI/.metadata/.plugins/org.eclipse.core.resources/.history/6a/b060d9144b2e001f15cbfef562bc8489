@@ -1,5 +1,0 @@
-package com.sistemi.informativi.bean;
-
-public class Course {
-	private String code;
-}

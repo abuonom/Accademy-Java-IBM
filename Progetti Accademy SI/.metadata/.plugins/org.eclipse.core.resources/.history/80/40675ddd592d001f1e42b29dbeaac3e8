@@ -1,8 +1,0 @@
-package com.sistemi.informativi;
-
-public class StudenteScolastico extends Studente{
-	public void studia() 
-	{
-		syso
-	}
-}

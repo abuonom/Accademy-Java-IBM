@@ -1,9 +1,0 @@
-package com.sistemi.informativi.main;
-
-public class main {
-
-	public static void main(String[] args) {
-		// TODO Auto-gener
-	}
-
-}

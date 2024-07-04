@@ -1,7 +1,0 @@
-package com.sistemi.informativi;
-
-public class Persona {
-	public void mangia() {
-		Sys
-	}
-}
