@@ -21,7 +21,7 @@ public class Main {
         //Step 2: apertura connessione al database
         Connection con = DriverManager.getConnection(dbUrl,dbUser,dbPassword);
 
-        //Step 3: Operazioni di brud
+        //Step 3: Operazioni di crud
         /*
             3.1 Inserimento nella tabella student del database openjob.
             Il metodo prepareStatement accetta in input uno script anonimo
