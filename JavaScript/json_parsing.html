@@ -1,0 +1,38 @@
+<html>
+
+<body>
+	<div id="p1"></div>
+	<div id="p2"></div>
+	<script>
+		//JSON MOCK
+		var person1 = {
+			"firstName": "Vera",
+			"lastName": "Cesari",
+			"age": 22,
+		};
+
+
+		//JSON MOCK
+		var person2 = {
+			"firstName": "Vera",
+			"lastName": "Cesari",
+			"age": 22,
+			"auto": {
+				"model": "Fiat",
+				"year": 2010
+			}
+		};
+
+		document.getElementById("p1").innerHTML = person1.firstName + " " + person1.lastName + " " + person1.age;
+		document.getElementById("p2").innerHTML = person2.firstName + " " + person2.lastName + " " + person2.age + " " + person2.auto.model;
+
+
+		/*
+		La conversione da JSON a JavaScript object avviene implicitamente
+		ma la conversione da JavaScript object a JSON deve essere esplicita
+		tramite la funzione JSON.stringify()
+		*/
+	</script>
+</body>
+
+</html>

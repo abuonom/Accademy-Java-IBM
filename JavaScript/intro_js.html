@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+			document.write("Hello World!");
+			/* Una funzione a differenza di un metodo deve avere
+			nella sua firma:
+			1. parola chiave function
+			2. nome della funzione
+			3. parametri
+			*/
+			function sayHello() {
+				alert("Hello World!");
+			}
+			/*
+			A partire da ECMAScript 6 è possibile dichiarare una funzione in modo anonimo
+			anounymous arrow function, ovvero una funzione che non richiede l'utilizzo
+			della parola chiave function e del nome della funzione, ma solo dei parametri
+			*/
+			var sayHelloArrow = () => {
+				alert("Hello World!");
+			}
+			</script>
+			<button onClick="sayHello()">sayHello function</button>
+			<button onClick="sayHelloArrow()">sayHello arrow function</button>
+	</body>
+</html>

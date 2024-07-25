@@ -1,0 +1,63 @@
+<body>
+	<div id="p1"></div>
+	<div id="p2"></div>
+	<div id="p3"></div>
+	<script>
+		// Creazione di un oggetto
+		var person1 = {
+			firstName: "Mario",
+			lastName: "Rossi",
+			age: 21,
+		};
+		/*
+		Un oggetto di tipo live object può essere modificato in qualsiasi momento
+		*/
+		person1.adress = "Via Roma 1";
+		delete person1.age;
+		document.getElementById("p1").innerHTML = person1.firstName + " " +
+		person1.lastName + " " + person1.age + " " + person1.adress;
+
+		/*
+		Un oggetto di tipo const object non può cambiare la sua reference
+		ma può cambiare il suo contenuto
+		esempio: person2 = {
+			firstName: "Mario",
+			lastName: "Rossi",
+			age: 21,
+		};
+		non lo posso fare se già l'ho dichiarato come const
+		*/
+		const person2 = {
+			firstName: "Mario",
+			lastName: "Rossi",
+			age: 21,
+		};
+		document.getElementById("p2").innerHTML = person2.firstName + " " +
+		person2.lastName + " " + person2.age + " " + person2.adress;
+		/*
+		Un oggetto di tipo Prototype class è un oggetto che viene dichiarato e poi
+		definito nel corso del programma
+		*/
+		var person3 = new Object();
+		person3.firstName = "Mario";
+		person3.lastName = "Rossi";
+		person3.age = 21;
+		document.getElementById("p3").innerHTML = person3.firstName + " " +
+		person3.lastName + " " + person3.age + " " + person3.adress;
+
+		/*
+		Un oggetto di tipo Constructor class è un oggetto che viene definito
+		mediante una funzione costruttore, l'utilizzo di this consente di
+		inizializzare variabili locali alla funzione costruttore
+		*/
+		function Person(firstName, lastName, age) {
+			this.firstName = firstName;
+			this.lastName = lastName;
+			this.age = age;
+		}
+		/*
+		Per creare un oggetto di tipo Constructor class si utilizza la parola chiave new
+		*/
+		var person4 = new Person("Mario", "Rossi", 21);
+	</script>
+</body>

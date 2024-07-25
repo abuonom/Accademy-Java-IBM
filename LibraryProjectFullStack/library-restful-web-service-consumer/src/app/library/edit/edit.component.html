@@ -1,0 +1,44 @@
+<div class="container">
+	<h1>Update Book</h1>
+
+	<form *ngIf="book" [formGroup]="form" (ngSubmit)="submit()">
+	  <div class="form-group">
+		<label for="isbn">Isbn:</label>
+		<input
+		  formControlName="isbn"
+		  id="isbn"
+		  type="text"
+		  readonly
+		  [(ngModel)]="book.isbn"
+		  class="form-control">
+	  </div>
+	  <div class="form-group">
+		<label for="body">Title:</label>
+		<input
+		  formControlName="title"
+		  id="title"
+		  type="text"
+		  [(ngModel)]="book.title"
+		  class="form-control">
+	  </div>
+	  <div class="form-group">
+		<label for="genre">Genre:</label>
+		<input
+		  formControlName="genre"
+		  id="genre"
+		  type="text"
+		  [(ngModel)]="book.genre"
+		  class="form-control">
+	  </div>
+	  <div class="form-group">
+		  <label for="published" class="form-check-label">Published</label>
+		<input
+		  formControlName="published"
+		  id="published"
+		  type="checkbox"
+		  [(ngModel)]="book.published"
+		  class="form-check-input">
+	  </div>
+	  <button class="btn btn-primary" type="submit">Submit</button>
+	</form>
+  </div>

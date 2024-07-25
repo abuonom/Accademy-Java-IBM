@@ -1,0 +1,22 @@
+<div class="container">
+	<h1>Save New Book</h1>
+	<form [formGroup]="form" (ngSubmit)="submit()">
+		<div class="form-group">
+			<label for="isbn">ISBN:</label>
+			<input formControlName="isbn" id="isbn" type="text" class="form-control" />
+		</div>
+		<div class="form-group">
+			<label for="title">Title:</label>
+			<input formControlName="title" id="title" type="text" class="form-control" />
+		</div>
+		<div class="form-group">
+			<label for="genre">Genre:</label>
+			<input formControlName="genre" id="genre" type="text" class="form-control" />
+		</div>
+		<div class="form-group">
+			<label for="publisher">Publisher:</label>
+			<input formControlName="publisher" id="published" type="boolean" class="form-control">
+		</div>
+		<button class="btn btn-primary">Submit</button>
+	</form>
+</div>
