@@ -1,0 +1,53 @@
+<div class="container">
+    
+    <h1>Update Academy</h1>
+ 
+        
+    <form [formGroup]="form" (ngSubmit)="submit()">
+  
+        <div class="form-group">
+            <label for="code">Code:</label>
+            <input 
+                formControlName="code"
+                id="code" 
+                type="text"
+                readonly
+                [(ngModel)]="academy.code"
+                class="form-control">
+        </div>
+  
+        <div class="form-group">
+            <label for="body">Title</label>
+            <input 
+                formControlName="title"
+                id="title" 
+                type="text"
+                [(ngModel)]="academy.title"
+                class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="cityLocation">City Location</label>
+            <input 
+                formControlName="cityLocation"
+                id="cityLocation" 
+                type="text" 
+                [(ngModel)]="academy.cityLocation"
+                class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="studentsNumber">StudentsNumber</label>
+            <input 
+                formControlName="studentsNumber"
+                id="studentsNumber" 
+                type="number" 
+                [(ngModel)]="academy.studentsNumber"
+                class="form-control">
+        </div>
+  
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
+
+
